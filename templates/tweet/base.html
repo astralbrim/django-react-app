@@ -3,7 +3,6 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link
 			rel="stylesheet"
@@ -12,13 +11,13 @@
 			crossorigin="anonymous"
 		/>
 
-		<title>Twitter Clone</title>
+		<title>Kikoo</title>
 	</head>
 	<body>
-		<header class="header">
-			<nav class="navbar navbar-expand navbar-dark bg-steel">
+		<header class="site-header">
+			<nav class="navbar navbar-expand navbar-dark bg-dark">
 				<div class="container">
-					<div class="collapse nav-collapse" id="navbarToggle">
+					<div class="collapse navbar-collapse" id="navbarToggle">
 						<a class="nav-item nav-link" href="#">Home</a>
 					</div>
 					<div class="navbar-nav">
@@ -28,10 +27,9 @@
 				</div>
 			</nav>
 		</header>
-
-		<main role="main" class="container-fluid">
+		<main role="main" class="contanier-fluid">
 			<div class="row">
-				<div class="col-md-12">{% block content %} {% endblock content %}</div>
+				<div class="col-md-12">{% block content %}{% endblock content %}</div>
 			</div>
 		</main>
 	</body>
